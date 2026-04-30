@@ -18,7 +18,7 @@ function App() {
       
       <footer className="glass-panel rounded-none border-x-0 border-b-0 py-8 mt-auto">
         <div className="max-w-7xl mx-auto px-4 text-center">
-          <h2 className="font-serif text-2xl text-luxury-gold mb-2">AfterLeaks</h2>
+          <img src="/logo.png" alt="AfterLeaks" className="h-12 w-auto mx-auto mb-2" />
           <p className="text-gray-500 text-sm">© {new Date().getFullYear()} Alexander Tolosa. All rights reserved.</p>
         </div>
       </footer>
