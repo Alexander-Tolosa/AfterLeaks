@@ -11,6 +11,7 @@ export const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           <Link to="/" className="flex items-center space-x-2">
             <img src="/logo.png" alt="AfterLeaks" className="h-10 w-auto" />
+            <span className="text-xl font-bold tracking-wider text-white" style={{ fontFamily: "'Outfit', sans-serif", letterSpacing: '0.15em' }}>AFTER LEAKS</span>
           </Link>
           
           <div className="hidden md:flex items-center space-x-8">

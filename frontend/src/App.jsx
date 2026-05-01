@@ -18,7 +18,10 @@ function App() {
       
       <footer className="glass-panel rounded-none border-x-0 border-b-0 py-8 mt-auto">
         <div className="max-w-7xl mx-auto px-4 text-center">
-          <img src="/logo.png" alt="AfterLeaks" className="h-12 w-auto mx-auto mb-2" />
+          <div className="flex items-center justify-center gap-3 mb-2">
+            <img src="/logo.png" alt="AfterLeaks" className="h-12 w-auto" />
+            <span className="text-2xl font-bold tracking-wider text-white" style={{ fontFamily: "'Outfit', sans-serif", letterSpacing: '0.15em' }}>AFTER LEAKS</span>
+          </div>
           <p className="text-gray-500 text-sm">© {new Date().getFullYear()} Alexander Tolosa. All rights reserved.</p>
         </div>
       </footer>
