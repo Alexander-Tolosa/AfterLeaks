@@ -1,7 +1,7 @@
 export const mockPerfumes = [
   {
     id: 1,
-    name: "Supremacy Not Only Intense Collector's Edition",
+    name: "Supremacy Collector's Edition",
     brand: "Afnan",
     concentration: "Extrait de Parfum",
     price: 3200.00,
